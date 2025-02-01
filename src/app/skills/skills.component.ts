@@ -27,19 +27,12 @@ export class SkillsComponent {
   skillCategories: SkillCategory[] = [
     {
       name: 'Languages & Frameworks',
-      skills: ['Python', 'C++', 'Java', 'ROS 2', 'PyTorch', 'TensorFlow']
+      skills: ['Python', 'Java', "Angular","Spring Boot"]
     },
-    {
-      name: 'Robotics Tools',
-      skills: ['Gazebo', 'MoveIt 2', 'OpenCV', 'MuJoCo', 'GTSAM', 'ROS']
-    },
+
     {
       name: 'Cloud & DevOps',
-      skills: ['Docker', 'Kubernetes', 'AWS', 'Azure', 'CI/CD', 'Git']
+      skills: ['Docker', 'Kubernetes', 'GCP',  'CI/CD', 'Git']
     },
-    {
-      name: 'Embedded Systems',
-      skills: ['STM32', 'Arduino', 'Raspberry Pi', 'PCB Design', 'RTOS', 'I2C/SPI']
-    }
   ];
 }

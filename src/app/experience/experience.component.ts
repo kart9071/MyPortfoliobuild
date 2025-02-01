@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
 import { animate, style, transition, trigger } from '@angular/animations';
+import { Component } from '@angular/core';
 
 interface Experience {
   role: string;
@@ -26,24 +26,25 @@ interface Experience {
   ]
 })
 export class ExperienceComponent {
+  
   experiences: Experience[] = [
     {
-      role: 'SDE II',
-      company: 'Amadeus Software Labs',
-      duration: 'Jan 2021 - Aug 2024',
+      role: 'Contractor',
+      company: 'Opentext  [Parent Company - Mindteck]',
+      duration: 'Sep 10 2024 - today',
       points: [
-        'Developed AI-powered chatbot using Azure AI Search and GPT-3.5 Turbo',
-        'Engineered analytics solution using Splunk and machine learning',
-        'Containerized Spring Boot apps with 35% cost reduction'
+        'Worked as a Software Engineer, contributed to product testing, regression, and fixing bugs, improving bug resolution time by 25%',
+        'Developed some automation framework for Testing',
+        'Worked on the GCP cloud for regression and bug debug.'
       ]
     },
     {
-      role: 'Control Systems Intern',
-      company: 'Perma-Liner Industries',
-      duration: 'Jun 2019 - Aug 2019',
+      role: 'Network Engineer Intern',
+      company: 'Sheeltron Digital System Pvt Ltd',
+      duration: '',
       points: [
-        'Developed EKF-based localization system for GPS-denied environments',
-        'Achieved 95% positioning accuracy in tunnel environments'
+        'Worked on different networking devices. Configuration, testing of the  devices.',
+        'Learnt different networking protocols and thier usecases.'
       ]
     }
   ];

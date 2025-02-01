@@ -1,5 +1,5 @@
 {
-  "name": "gauravkh-portfolio",
+  "name": "karthik-shetty-portfolio",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -21,7 +21,7 @@
     "@angular/platform-browser-dynamic": "^19.1.0",
     "@angular/router": "^19.1.0",
     "font-awesome": "^4.7.0",
-    "gauravkh-portfolio": "file:",
+    "karthik-shetty-portfolio": "file:",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"

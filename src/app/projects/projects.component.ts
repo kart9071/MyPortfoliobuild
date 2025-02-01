@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
 import { animate, style, transition, trigger } from '@angular/animations';
+import { Component } from '@angular/core';
 
 interface Project {
   title: string;
@@ -29,22 +29,22 @@ interface Project {
 export class ProjectsComponent {
   projects: Project[] = [
     {
-      title: 'Path Planning with RL & NeRF',
-      description: 'Implemented DDPG algorithm with 2x faster convergence using Prioritized Experience Replay and custom reward structures',
-      tech: ['PyTorch', 'ROS', 'NeRF', 'DDPG'],
-      github: 'https://github.com/khgaurav/path-planning'
+      title: 'Stock Market Project',
+      description: 'Stock market Analyser for investors.',
+      tech: ['Python', 'streamlit'],
+      github: 'https://github.com/kart9071/project-stock_market'
     },
     {
-      title: 'Multi-Agent Trajectory Optimization',
-      description: 'Developed Bayesian optimization framework for drone swarm trajectory planning with 98% dynamic feasibility',
-      tech: ['Python', 'BO', 'ROS', 'GTSAM'],
-      demo: '#'
+      title: 'Gallery App',
+      description: 'Gallery Application for android. Respected Users edit and do some operation on thier images.',
+      tech: ['Java', 'XML', 'Android Studio'],
+      github: 'https://github.com/kart9071/Gallery_app'
     },
     {
-      title: 'AI-Powered Chatbot',
-      description: 'Created Azure AI Search integrated chatbot using GPT-3.5 Turbo, improving conversion rates by 10%',
-      tech: ['Azure AI', 'GPT-3.5', 'LangChain', 'Docker'],
-      github: 'https://github.com/khgaurav/ai-chatbot'
+      title: 'E LEARNING MANAGEMENT SYSTEM',
+      description: 'Primarily implemented HTTP Live Streaming to enhance visibility of content for students, as added by the Admin or Trainer.',
+      tech: ['Java', 'Spring boot','Angular'],
+      github: 'https://github.com/kart9071/Gallery_app.git'
     }
   ];
 }
