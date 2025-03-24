@@ -44,7 +44,7 @@ export class ProjectsComponent {
       title: 'E LEARNING MANAGEMENT SYSTEM',
       description: 'Primarily implemented HTTP Live Streaming to enhance visibility of content for students, as added by the Admin or Trainer.',
       tech: ['Java', 'Spring boot','Angular'],
-      github: 'https://github.com/kart9071/Gallery_app.git'
+      github: 'https://github.com/kart9071/LMS.git'
     }
   ];
 }
